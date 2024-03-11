@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+html, body {
+  font-family: "Inter";
+  background-color: #040404;
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: center;
+
+  scroll-behavior: smooth;
+}
+button {
+  font-family: "Inter";
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px; /* Максимальна ширина контейнера для контенту */
+  margin: 0 auto; /* Вирівнювання по центру */
+}
+.btn:hover {
+ transform: scale(.96);
+}
+/* ------------------------------ HEADER STYLE ----------------------------------- */
+header {
+  display: flex;
+  background-color: #0f0e0e;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  margin-bottom: 39px;
+}
+.nav__list {
+  display: flex;
+  gap: 60px;
+}
+.nav__link {
+  color: #999;
+}
+.nav__link:hover {
+  color: #fff;
+}
+.singin {
+  margin-right: 48px;
+  color: #999;
+  background-color: transparent;
+  font-size: 15px;
+}
+.login {
+  padding: 10px;
+  border-radius: 6px;
+  color: #151515;
+  font-size: 15px;
+  background-color: #eaff96;
+}
+/* ------------------------------ MAIN STYLE ----------------------------------- */
+.baner {
+  margin-bottom: 150px;
+}
+.codeSandBox__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 340px;
+}
+.code-sandbox-header {
+  font-size: 35px;
+  margin-bottom: 16px;
+}
+.subheader {
+  margin-bottom: 31px;
+  font-size: 64px;
+  font-weight: normal;
+}
+.description {
+  margin-bottom: 14px;
+  color: #999;
+  font-size: 17px;
+}
+.startCoding {
+  width: 212px;
+  height: 29px;
+  font-size: 16px;
+  color: #0f0e0e;
+  background-color: #eaff96;
+  border-radius: 5px;
+}
+/* ------------------------- OPPORTUNITIES STYLE ----------------------------------- */
+.opportunities {
+  margin-bottom: 400px;
+}
+.opportunities__list {
+  width: 590px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  margin-bottom: 46px;
+  gap: 33px;
+  border-bottom: 1px solid #343434;
+}
+.opportunities__link {
+  color: #999;
+  font-size: 17px;
+  transition: color 0.3s, border-bottom-width 0.3s;
+}
+.opportunities__link:hover {
+  color: #fff;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 20px;
+}
+.opportunities__info {
+  margin-bottom: 131px;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+/* -------------------------------FOR IOS STYLE---------------------------------- */
+.ios__image {
+  margin-bottom: 33px;
+}
+.for__ios {
+  margin-bottom: 150px;
+}
+.ios__subheader {
+  margin-bottom: 39px;
+  font-size: 104px;
+}
+.ios__subtitle {
+  margin-bottom: 26px;
+  font-size: 18px;
+  color: #999;
+}
+.learn__more {
+  background: transparent;
+  font-size: 17px;
+  color: #e3ff73;
+}
+/* -------------------------------------COLABORATION STYLE----------------------- */
+.colaboration {
+  margin-bottom: 220px;
+}
+.image-1 {
+  position: relative;
+  left: 506px;
+  top: -140px;
+}
+.image-2 {
+  position: relative;
+  left: 555px;
+  top: 30px;
+}
+.image-3 {
+  position: relative;
+  left: 453px;
+  top: -140px;
+}
+.image-4 {
+  position: relative;
+  left: -532px;
+  top: -140px;
+}
+.image-5 {
+  position: relative;
+  top: 25px;
+  float: left;
+}
+.image-6 {
+  position: relative;
+  left: -478px;
+  top: -140px;
+}
+.photoOfPeople:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.colebration__title {
+  position: relative;
+  top: -126px;
+  display: flow-root;
+  font-size: 48px;
+  font-weight: normal;
+}
+.colebration__subtitle {
+  position: relative;
+  top: -90px;
+  left: 65px;
+  font-size: 17px;
+  color: #999;
+}
+/* --------------------------------------------------------------CARDS STYLE---------------------------------------------  */
+.cards {
+  display: flex;
+  gap: 38px;
+  justify-content: center;
+}
+.card {
+  width: 341px;
+  padding: 64px 64px 130px 69px;
+  background: #151515;
+}
+.card__img {
+  margin-bottom: 15px;
+}
+.card__title {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.card__subtitle {
+  font-size: 15px;
+  color: #999;
+}
+.card:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transform: scale(0.97);
+}
+/* ----------------------EXPERIANCE STYLE--------------------------------------------- */
+.experience {
+  margin-bottom: 50px;
+}
+.experience__title {
+  margin-bottom: 85px;
+  font-size: 48px;
+  font-weight: normal;
+}
+/* -------------------------FOOTER STYLE--------------------------------------------- */
+hr {
+  border-top: 1px solid #343434;
+}
+footer {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 97px;
+}
+.nav__footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 137px;
+  gap: 100px;
+}
+.nav__title {
+  font-size: 19px;
+  margin-bottom: 15px;
+}
+.footer__item {
+  margin-bottom: 8px;
+}
+.footer__link {
+  font-size: 15px;
+  color: #999;
+}
+.sociaImage:hover {
+  background: #fff;
+  border-radius: 20px;
+}
